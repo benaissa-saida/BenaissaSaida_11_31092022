@@ -1,9 +1,14 @@
+.container-error {
+   margin: 2.5vw 6vw;
+   height: 100%;
+   display: grid;
+   grid-template-rows: auto 1fr;
+}
+
 .ks-status-error {
    font-size: 288px;
    display: flex;
    justify-content: center;
-   margin-top: 150px;
-   margin-bottom: 60px;
 }
 .ks-message-error {
    display: block;
@@ -17,21 +22,26 @@
 .ks-return-link {
    display: flex;
    justify-content: center;
-   text-align: center;
+   align-items: center;
    cursor: pointer;
    font-size: 500;
    font-size: 18px;
-   margin-top: 180px;
-   margin-bottom: 100px;
    text-decoration: underline;
    color: #ff6060;
 }
 
+#error-page {
+   height: 100%;
+   display: grid;
+   grid-template-rows: auto auto 1fr;
+   width: 100%;
+}
+
 @media (max-width: 600px) {
-   .ks-message-error {
+   .ks-status-error {
       font-size: 25vw;
    }
-   .ks-status-error {
+   .ks-message-error {
       width: 70%;
       font-size: 5vw;
    }

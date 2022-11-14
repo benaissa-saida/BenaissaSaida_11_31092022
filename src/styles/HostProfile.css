@@ -1,0 +1,16 @@
+.profile-container {
+   display: flex;
+}
+
+.host-name {
+   font-size: 2.8vw;
+   font-weight: 500;
+   display: inline;
+   width: min-content;
+   margin-right: 10px;
+}
+
+.profile-picture {
+   border-radius: 50%;
+   width: 10vw;
+}

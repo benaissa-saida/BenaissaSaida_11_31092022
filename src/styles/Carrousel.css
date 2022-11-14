@@ -1,0 +1,65 @@
+.carrousel {
+   display: flex;
+   align-items: center;
+   position: relative;
+}
+
+.left-arrow,
+.right-arrow {
+   position: absolute;
+   cursor: pointer;
+   z-index: 99;
+   color: #fff;
+   font-size: 6vw;
+   opacity: 0.6;
+   z-index: 99;
+   height: auto;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+   opacity: 1;
+   transition: 200ms;
+}
+
+.left-arrow {
+   left: 0;
+}
+
+.right-arrow {
+   right: 0;
+}
+
+.cover-image-locations {
+   border-radius: 20px;
+   max-width: 35vw;
+   max-height: 35vw;
+   min-width: 100%;
+   min-height: 35vw;
+   object-fit: cover;
+}
+
+.counter {
+   position: relative;
+   z-index: 99;
+   right: 50%;
+   top: 15vw;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+@media (max-width: 600px) {
+   .left-arrow,
+   .right-arrow {
+      padding: 0 2vw;
+      font-size: 9vw;
+   }
+   .cover-image-locations {
+      width: 335px;
+      height: 235px;
+   }
+   .counter {
+      top: 14vw;
+   }
+}

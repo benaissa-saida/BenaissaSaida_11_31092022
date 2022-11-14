@@ -1,0 +1,23 @@
+.footer-container {
+   background-color: black;
+   height: 209px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.copyright-txt {
+   margin-top: 40px;
+   color: #fff;
+   font-weight: 500;
+   font-size: 28px;
+}
+@media (max-width: 600px) {
+   .footer-container {
+      padding: 20px;
+   }
+   .copyright-txt {
+      font-size: 12px;
+   }
+}

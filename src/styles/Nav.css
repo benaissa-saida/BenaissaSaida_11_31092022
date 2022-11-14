@@ -1,0 +1,28 @@
+.navbar {
+   font-size: 1.5vw;
+}
+.navbar ul {
+   display: flex;
+   padding-inline-start: unset;
+   list-style-type: none;
+   gap: 5vw;
+}
+.navbar ul + li {
+   cursor: pointer;
+}
+.navbar li a {
+   text-decoration: none;
+   color: #ff6060;
+}
+.navbar a.underline {
+   text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+   .navbar {
+      font-size: 3.5vw;
+   }
+   .navbar li a {
+      text-transform: uppercase;
+   }
+}

@@ -1,0 +1,46 @@
+.container-locations {
+   margin: 4vw 0;
+}
+
+.title-of-location {
+   font-size: 4vw;
+   font-weight: 500;
+   width: 60%;
+   display: inline;
+}
+
+.place-of-location {
+   margin-top: 10px;
+   font-weight: 500;
+   font-size: 2.5vw;
+}
+
+.profileAndRating {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+
+.rating {
+   display: flex;
+   flex-direction: column;
+}
+
+@media (max-width: 600px) {
+   .title-of-location {
+      font-size: 6vw;
+      width: 100%;
+   }
+   .place-of-location {
+      margin-bottom: 20px;
+   }
+   .profileAndRating {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+   }
+   .rating {
+      flex-direction: column-reverse;
+   }
+}

@@ -33,8 +33,9 @@
 
 @media (max-width: 600px) {
    .ks-motto {
-      font-size: 20px;
+      font-size: 24px;
       margin: 30px;
       flex-wrap: wrap;
+      line-height: 100%;
    }
 }
