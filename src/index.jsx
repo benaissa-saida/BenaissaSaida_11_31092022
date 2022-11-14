@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import './styles/index.css';
+import './styles/Index.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Logement from './pages/Logement';
