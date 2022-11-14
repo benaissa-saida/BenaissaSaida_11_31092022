@@ -1,12 +1,15 @@
 import Header from './Header';
 import Footer from './Footer';
+import '../styles/Layout.css';
 
 function Layout({ children }) {
    return (
-      <div>
-         <Header />
+      <div className="container">
+         <div className="hero">
+            <Header />
 
-         {children}
+            {children}
+         </div>
 
          <Footer />
       </div>
