@@ -2,8 +2,12 @@ import Layout from '../components/Layout';
 import Banner from '../components/Banner';
 import coverHome from '../assets/coverHome.png';
 import Cards from '../components/Cards';
+import { useEffect } from 'react';
 
 function Home({ logements }) {
+   useEffect(() => {
+      document.title = 'Kasa | Accueil';
+   }, []);
    return (
       <Layout>
          <Banner className="banner-container">

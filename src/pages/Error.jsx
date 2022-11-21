@@ -2,9 +2,13 @@ import { useRouteError } from 'react-router-dom';
 import '../styles/Error.css';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
+import { useEffect } from 'react';
 
 function ErrorPage() {
    const error = useRouteError();
+   useEffect(() => {
+      document.title = `Kasa | ${error.statusText}`;
+   }, [error]);
    return (
       <div className="container-error">
          <Header />

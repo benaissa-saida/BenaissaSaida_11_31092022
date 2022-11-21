@@ -6,6 +6,7 @@ import Tags from '../components/Tags';
 import Dropdown from '../components/Dropdown';
 import { useLoaderData } from 'react-router-dom';
 import '../styles/Logement.css';
+import { useEffect } from 'react';
 
 function Logement() {
    //récupère la data créer à partir du loader dans la route
@@ -20,6 +21,10 @@ function Logement() {
       pictures,
       title,
    } = data.logement;
+
+   useEffect(() => {
+      document.title = `Kasa | ${title}`;
+   }, [title]);
 
    return (
       <Layout>
