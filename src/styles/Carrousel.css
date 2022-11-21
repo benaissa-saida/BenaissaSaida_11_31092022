@@ -35,7 +35,7 @@
    max-width: 35vw;
    max-height: 35vw;
    min-width: 100%;
-   min-height: 35vw;
+   min-height: 235px;
    object-fit: cover;
 }
 
@@ -43,7 +43,7 @@
    position: relative;
    z-index: 99;
    right: 50%;
-   top: 15vw;
+   top: 13vw;
    color: #fff;
    font-size: 18px;
    font-weight: 500;
@@ -55,11 +55,7 @@
       padding: 0 2vw;
       font-size: 9vw;
    }
-   .cover-image-locations {
-      width: 335px;
-      height: 235px;
-   }
    .counter {
-      top: 14vw;
+      top: 80px;
    }
 }

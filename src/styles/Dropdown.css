@@ -45,7 +45,7 @@
    padding: 40px 20px;
    display: block;
    border-radius: 0 0 10px 10px;
-   animation: slideDown 1000ms;
+   animation: slideDown 600ms;
 }
 
 .details-items li {
