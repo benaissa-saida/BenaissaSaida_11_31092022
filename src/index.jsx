@@ -6,12 +6,24 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Logement from './pages/Logement';
 import ErrorPage from './pages/Error';
+import logements from './datas/logements';
+
+function loader({ params }) {
+   // cette fonction permet de charger la data en créant une erreur 404 s'il n'y a pas
+   // d'id correspondant.
+   const logement = logements.find((logement) => logement.id === params.id);
+   if (logement === undefined) {
+      throw new Response('Not Found', { status: 404 });
+   }
+   //retourne la data
+   return { logement };
+}
 
 const router = createBrowserRouter([
    {
       path: '/',
-      element: <Home />,
-      errorElement: <ErrorPage />,
+      element: <Home logements={logements} />,
+      errorElement: <ErrorPage error={null} />,
    },
    {
       path: '/about',
@@ -20,6 +32,9 @@ const router = createBrowserRouter([
    {
       path: '/logement/:id',
       element: <Logement />,
+      //load data & throw error
+      loader: loader,
+      errorElement: <ErrorPage />,
    },
 ]);
 
