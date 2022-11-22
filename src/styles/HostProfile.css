@@ -19,4 +19,8 @@
    .ks-host-name {
       font-size: 12px;
    }
+   .ks-profile-picture {
+      min-width: 32px;
+      min-height: 32px;
+   }
 }

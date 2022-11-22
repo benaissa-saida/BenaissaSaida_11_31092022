@@ -1,27 +1,16 @@
 .ks-banner-container {
    display: flex;
-   width: 100%;
    justify-content: center;
    align-items: center;
    margin-bottom: 4vw;
 }
 
 .ks-cover-img {
-   min-width: 100%;
    max-width: 100%;
    min-height: 111px;
    object-fit: cover;
    border-radius: 2vw;
    filter: brightness(60%);
-}
-
-.ks-cover-logement {
-   min-width: 100%;
-   max-width: 100%;
-   min-height: 111px;
-   object-fit: cover;
-   border-radius: 2vw;
-   filter: brightness(100%);
 }
 
 .ks-motto {
@@ -35,7 +24,6 @@
    .ks-motto {
       font-size: 24px;
       margin: 30px;
-      flex-wrap: wrap;
       line-height: 100%;
    }
 }

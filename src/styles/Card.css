@@ -3,8 +3,6 @@
    height: 340px;
    width: 340px;
    border-radius: 10px;
-   display: inline-block;
-   color: #fff;
    object-fit: cover;
 }
 
@@ -25,10 +23,8 @@
 .ks-card-cover {
    width: 100%;
    height: 100%;
-   object-fit: cover;
-   height: 100%;
    border-radius: 25px;
-   filter: brightness(70%);
+   filter: brightness(50%);
 }
 
 .ks-card-cover img {
@@ -51,9 +47,5 @@
    .ks-card {
       margin: unset;
       width: 100%;
-   }
-
-   .ks-card-cover {
-      object-fit: cover;
    }
 }

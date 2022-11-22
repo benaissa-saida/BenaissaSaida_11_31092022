@@ -12,7 +12,6 @@
    color: #fff;
    font-size: 6vw;
    opacity: 0.6;
-   z-index: 99;
    height: auto;
 }
 
@@ -33,7 +32,7 @@
 .ks-cover-image-locations {
    border-radius: 20px;
    max-width: 35vw;
-   max-height: 35vw;
+   max-height: 29vw;
    min-width: 100%;
    min-height: 235px;
    object-fit: cover;
@@ -41,9 +40,8 @@
 
 .ks-counter {
    position: relative;
-   z-index: 99;
    right: 50%;
-   top: 13vw;
+   top: 12vw;
    color: #fff;
    font-size: 18px;
    font-weight: 500;

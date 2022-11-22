@@ -14,7 +14,6 @@
 
 .ks-dropdown-about {
    width: 80%;
-   display: block;
    margin: auto;
    padding: 15px 20px;
    cursor: pointer;
@@ -51,7 +50,6 @@
    background-color: #f7f7f7;
    margin-top: -10px;
    padding: 40px 20px;
-   display: block;
    border-radius: 0 0 10px 10px;
    animation: slideDown 600ms;
 }
