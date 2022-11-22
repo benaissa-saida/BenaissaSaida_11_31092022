@@ -19,16 +19,16 @@ function Carrousel({ pictures }) {
    };
 
    return (
-      <div className="carrousel">
-         <BsChevronLeft className="left-arrow" onClick={slidePrev} />
-         <BsChevronRight className="right-arrow" onClick={slideNext} />
+      <div className="ks-carrousel">
+         <BsChevronLeft className="ks-left-arrow" onClick={slidePrev} />
+         <BsChevronRight className="ks-right-arrow" onClick={slideNext} />
 
          <img
-            className="cover-image-locations"
+            className="ks-cover-image-locations"
             src={pictures[isCurrentPicture]}
             alt="gallery"
          />
-         <span className="counter">
+         <span className="ks-counter">
             {isCurrentPicture + 1}/{length}
          </span>
       </div>

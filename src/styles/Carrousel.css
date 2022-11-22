@@ -1,11 +1,11 @@
-.carrousel {
+.ks-carrousel {
    display: flex;
    align-items: center;
    position: relative;
 }
 
-.left-arrow,
-.right-arrow {
+.ks-left-arrow,
+.ks-right-arrow {
    position: absolute;
    cursor: pointer;
    z-index: 99;
@@ -16,21 +16,21 @@
    height: auto;
 }
 
-.left-arrow:hover,
-.right-arrow:hover {
+.ks-left-arrow:hover,
+.ks-right-arrow:hover {
    opacity: 1;
    transition: 200ms;
 }
 
-.left-arrow {
+.ks-left-arrow {
    left: 0;
 }
 
-.right-arrow {
+.ks-right-arrow {
    right: 0;
 }
 
-.cover-image-locations {
+.ks-cover-image-locations {
    border-radius: 20px;
    max-width: 35vw;
    max-height: 35vw;
@@ -39,7 +39,7 @@
    object-fit: cover;
 }
 
-.counter {
+.ks-counter {
    position: relative;
    z-index: 99;
    right: 50%;
@@ -50,12 +50,12 @@
 }
 
 @media (max-width: 600px) {
-   .left-arrow,
-   .right-arrow {
+   .ks-left-arrow,
+   .ks-right-arrow {
       padding: 0 2vw;
       font-size: 9vw;
    }
-   .counter {
+   .ks-counter {
       top: 80px;
    }
 }

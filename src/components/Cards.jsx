@@ -3,9 +3,9 @@ import '../styles/Cards.css';
 
 function Cards({ data }) {
    return (
-      <main className="card-container">
+      <main className="ks-card-container">
          {data.map((card) => (
-            <div key={card.id} className="location-elt">
+            <div key={card.id} className="ks-location-elt">
                <Card title={card.title} src={card.cover} id={card.id} />
             </div>
          ))}

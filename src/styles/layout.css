@@ -1,9 +1,9 @@
-.container {
+.ks-container {
    height: 100%;
    display: grid;
    grid-template-rows: 1fr auto;
 }
 
-.hero {
+.ks-hero {
    margin: 2.5vw 6vw;
 }

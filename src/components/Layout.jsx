@@ -4,8 +4,8 @@ import '../styles/Layout.css';
 
 function Layout({ children }) {
    return (
-      <div className="container">
-         <div className="hero">
+      <div className="ks-container">
+         <div className="ks-hero">
             <Header />
 
             {children}

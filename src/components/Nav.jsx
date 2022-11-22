@@ -2,9 +2,9 @@ import { NavLink } from 'react-router-dom';
 import '../styles/Nav.css';
 
 function Nav() {
-   let activeClassName = 'underline';
+   let activeClassName = 'ks-underline';
    return (
-      <nav className="navbar">
+      <nav className="ks-navbar">
          <ul>
             <li>
                <NavLink

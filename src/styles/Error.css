@@ -1,4 +1,4 @@
-.container-error {
+.ks-container-error {
    margin: 2.5vw 6vw;
    height: 100%;
    display: grid;
@@ -11,7 +11,7 @@
    justify-content: center;
 }
 .ks-message-error {
-   display: block;
+   display: flex;
    margin: auto;
    justify-content: center;
    text-align: center;
@@ -19,10 +19,13 @@
    font-size: 36px;
 }
 
-.ks-return-link {
+.ks-return {
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+.ks-return-link {
    cursor: pointer;
    font-size: 500;
    font-size: 18px;
@@ -30,7 +33,7 @@
    color: #ff6060;
 }
 
-#error-page {
+#ks-error-page {
    height: 100%;
    display: grid;
    grid-template-rows: auto auto 1fr;
@@ -38,12 +41,23 @@
 }
 
 @media (max-width: 600px) {
+   #ks-error-page {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+
    .ks-status-error {
       font-size: 25vw;
    }
    .ks-message-error {
+      margin: 0;
       width: 70%;
       font-size: 5vw;
+      align-self: center;
+   }
+   .ks-return {
+      height: 50%;
    }
    .ks-return-link {
       font-size: 5vw;

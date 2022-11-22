@@ -1,10 +1,10 @@
-.stars-container {
+.ks-stars-container {
    display: flex;
    font-size: 30px;
    gap: 0.5vw;
 }
 @media (max-width: 600px) {
-   .stars-container {
+   .ks-stars-container {
       margin-bottom: 10px;
       font-size: 15px;
    }

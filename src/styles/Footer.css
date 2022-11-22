@@ -1,4 +1,4 @@
-.footer-container {
+.ks-footer-container {
    background-color: black;
    height: 209px;
    display: flex;
@@ -7,17 +7,17 @@
    justify-content: center;
 }
 
-.copyright-txt {
+.ks-copyright-txt {
    margin-top: 40px;
    color: #fff;
    font-weight: 500;
    font-size: 28px;
 }
 @media (max-width: 600px) {
-   .footer-container {
+   .ks-footer-container {
       padding: 20px;
    }
-   .copyright-txt {
+   .ks-copyright-txt {
       font-size: 12px;
    }
 }

@@ -1,5 +1,5 @@
 function Tag({ content }) {
-   return <div className="tags">{content}</div>;
+   return <div className="ks-tags">{content}</div>;
 }
 
 export default Tag;

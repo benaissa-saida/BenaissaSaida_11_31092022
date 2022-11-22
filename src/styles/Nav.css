@@ -1,28 +1,28 @@
-.navbar {
+.ks-navbar {
    font-size: 1.5vw;
 }
-.navbar ul {
+.ks-navbar ul {
    display: flex;
    padding-inline-start: unset;
    list-style-type: none;
    gap: 5vw;
 }
-.navbar ul + li {
+.ks-navbar ul + li {
    cursor: pointer;
 }
-.navbar li a {
+.ks-navbar li a {
    text-decoration: none;
    color: #ff6060;
 }
-.navbar a.underline {
+.ks-navbar a.ks-underline {
    text-decoration: underline;
 }
 
 @media (max-width: 600px) {
-   .navbar {
+   .ks-navbar {
       font-size: 3.5vw;
    }
-   .navbar li a {
+   .ks-navbar li a {
       text-transform: uppercase;
    }
 }

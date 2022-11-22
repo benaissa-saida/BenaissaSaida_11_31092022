@@ -9,7 +9,7 @@ function Ratings({ content }) {
    }
 
    return (
-      <div className="stars-container">
+      <div className="ks-stars-container">
          {starsArray.map((star, i) =>
             star === 'full' ? (
                <span key={i}>

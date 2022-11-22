@@ -28,22 +28,30 @@ function Logement() {
 
    return (
       <Layout>
-         <main className="container-locations">
+         <main className="ks-container-locations">
             <Carrousel pictures={pictures} />
-            <h1 className="title-of-location">{title}</h1>
-            <h2 className="place-of-location"> {location}</h2>
+            <h1 className="ks-title-of-location">{title}</h1>
+            <h2 className="ks-place-of-location"> {location}</h2>
 
-            <div className="rating">
-               <div className="profileAndRating">
+            <div className="ks-rating">
+               <div className="ks-profileAndRating">
                   <HostProfile name={host.name} picture={host.picture} />
                   <Ratings content={parseInt(rating)} />
                </div>
                <Tags tags={tags} />
             </div>
 
-            <section className="details-container">
-               <Dropdown title="Description" content={description} />
-               <Dropdown title="Équipements" content={equipments} />
+            <section className="ks-details-container">
+               <Dropdown
+                  title="Description"
+                  content={description}
+                  nameOfClass="ks-dropdown"
+               />
+               <Dropdown
+                  title="Équipements"
+                  content={equipments}
+                  nameOfClass="ks-dropdown"
+               />
             </section>
          </main>
       </Layout>

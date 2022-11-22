@@ -1,8 +1,8 @@
-.profile-container {
+.ks-profile-container {
    display: flex;
 }
 
-.host-name {
+.ks-host-name {
    font-size: 2.8vw;
    font-weight: 500;
    display: inline;
@@ -10,7 +10,13 @@
    margin-right: 10px;
 }
 
-.profile-picture {
+.ks-profile-picture {
    border-radius: 50%;
    width: 10vw;
+}
+
+@media (max-width: 600px) {
+   .ks-host-name {
+      font-size: 12px;
+   }
 }

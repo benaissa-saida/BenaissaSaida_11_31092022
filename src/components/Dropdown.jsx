@@ -2,21 +2,21 @@ import { useState } from 'react';
 import { BiChevronUp, BiChevronDown } from 'react-icons/bi';
 import '../styles/Dropdown.css';
 
-function Dropdown({ title, content }) {
+function Dropdown({ title, content, nameOfClass }) {
    const [isOpen, setIsOpen] = useState(false);
    return (
-      <div className="dropdown">
-         <div className="dropdown-menu" onClick={() => setIsOpen(!isOpen)}>
-            <h3 className="dropdown-title">{title}</h3>
-            <span className="chevron">
+      <div className={nameOfClass}>
+         <div className="ks-dropdown-menu" onClick={() => setIsOpen(!isOpen)}>
+            <h3 className="ks-dropdown-title">{title}</h3>
+            <span className="ks-chevron">
                {isOpen ? <BiChevronUp /> : <BiChevronDown />}
             </span>
          </div>
 
          {isOpen && (
-            <div className="details-items">
+            <div className="ks-details-items">
                {typeof content === 'string' ? (
-                  <span className="description">{content}</span>
+                  <span className="ks-description">{content}</span>
                ) : (
                   content.map((elt, index) => <li key={index}>{elt}</li>)
                )}

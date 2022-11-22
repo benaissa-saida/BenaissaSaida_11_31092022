@@ -1,7 +1,4 @@
-.card-container {
-   /* display: flex;
-   justify-content: space-evenly;
-   flex-wrap: wrap; */
+.ks-card-container {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    justify-items: center;
@@ -12,24 +9,24 @@
    border-radius: 25px;
 }
 
-.location-elt {
+.ks-location-elt {
    width: 340px;
    height: 340px;
 }
 
 @media (max-width: 684px) {
-   .card-container {
+   .ks-card-container {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       padding: unset;
    }
-   .location-elt {
+   .ks-location-elt {
       width: 100%;
    }
 }
 
 @media (min-width: 685px) and (max-width: 1046px) {
-   .card-container {
+   .ks-card-container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
    }
