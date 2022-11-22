@@ -10,16 +10,18 @@ function ErrorPage() {
       document.title = `Kasa | ${error.statusText}`;
    }, [error]);
    return (
-      <div className="container-error">
+      <div className="ks-container-error">
          <Header />
-         <div id="error-page">
+         <div id="ks-error-page">
             <h1 className="ks-status-error">{error.status}</h1>
             <h2 className="ks-message-error">
                Oups! La page que vous demandez n'existe pas.
             </h2>
-            <Link to="/" className="ks-return-link">
-               Retourner sur la page d’accueil
-            </Link>
+            <div className="ks-return">
+               <Link to="/" className="ks-return-link">
+                  Retourner sur la page d’accueil
+               </Link>
+            </div>
          </div>
       </div>
    );
