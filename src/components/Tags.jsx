@@ -1,5 +1,5 @@
 import Tag from './Tag';
-import '../styles/Tags.css';
+import '../styles/tags.css';
 
 function Tags({ tags }) {
    return (

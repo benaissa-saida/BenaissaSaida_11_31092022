@@ -1,4 +1,4 @@
-import '../styles/HostProfile.css';
+import '../styles/hostProfile.css';
 
 function HostProfile({ name, picture }) {
    return (

@@ -1,5 +1,5 @@
 import { useRouteError } from 'react-router-dom';
-import '../styles/Error.css';
+import '../styles/error.css';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import { useEffect } from 'react';

@@ -1,5 +1,5 @@
 import { BsStarFill, BsStar } from 'react-icons/bs';
-import '../styles/Ratings.css';
+import '../styles/ratings.css';
 
 function Ratings({ content }) {
    const starsArray = [];

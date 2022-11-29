@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { BsChevronRight, BsChevronLeft } from 'react-icons/bs';
-import '../styles/Carrousel.css';
+import '../styles/carrousel.css';
 
 function Carrousel({ pictures }) {
    const length = pictures.length;

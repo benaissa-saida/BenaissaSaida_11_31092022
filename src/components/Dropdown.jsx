@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { BiChevronUp, BiChevronDown } from 'react-icons/bi';
-import '../styles/Dropdown.css';
+import '../styles/dropdown.css';
 
 function Dropdown({ title, content, nameOfClass }) {
    const [isOpen, setIsOpen] = useState(false);

@@ -5,7 +5,7 @@ import Ratings from '../components/Ratings';
 import Tags from '../components/Tags';
 import Dropdown from '../components/Dropdown';
 import { useLoaderData } from 'react-router-dom';
-import '../styles/Logement.css';
+import '../styles/logement.css';
 import { useEffect } from 'react';
 
 function Logement() {

@@ -4,7 +4,7 @@ import coverAbout from '../assets/coverAbout.png';
 import abouts from '../datas/about';
 import { useEffect } from 'react';
 import Dropdown from '../components/Dropdown';
-import '../styles/About.css';
+import '../styles/about.css';
 
 function About() {
    useEffect(() => {
