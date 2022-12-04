@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/BenaissaSaida_11_31092022/static/css/main.0a4c1b86.css",
+    "main.js": "/BenaissaSaida_11_31092022/static/js/main.39231c6d.js",
+    "static/media/coverAbout.png": "/BenaissaSaida_11_31092022/static/media/coverAbout.ed819f2cc2faefb4fba2.png",
+    "static/media/coverHome.png": "/BenaissaSaida_11_31092022/static/media/coverHome.40371f11171ba050e175.png",
+    "static/media/headerLogo.svg": "/BenaissaSaida_11_31092022/static/media/headerLogo.d4dd43b837899e6c0412d197ec87ae0b.svg",
+    "static/media/footerLogo.svg": "/BenaissaSaida_11_31092022/static/media/footerLogo.ee689fd9409d1b5a898b4247819d8a00.svg",
+    "index.html": "/BenaissaSaida_11_31092022/index.html",
+    "main.0a4c1b86.css.map": "/BenaissaSaida_11_31092022/static/css/main.0a4c1b86.css.map",
+    "main.39231c6d.js.map": "/BenaissaSaida_11_31092022/static/js/main.39231c6d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a4c1b86.css",
+    "static/js/main.39231c6d.js"
+  ]
+}
