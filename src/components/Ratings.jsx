@@ -1,25 +1,17 @@
-import { BsStarFill, BsStar } from 'react-icons/bs';
+import GreyStar from './GreyStar';
+import RedStar from './RedStar';
 import '../styles/ratings.css';
 
 function Ratings({ content }) {
    const starsArray = [];
-
    for (let i = 0; i < 5; i++) {
-      i < content ? starsArray.push('full') : starsArray.push('empty');
+      i < content ? starsArray.push('red') : starsArray.push('grey');
    }
 
    return (
       <div className="ks-stars-container">
          {starsArray.map((star, i) =>
-            star === 'full' ? (
-               <span key={i}>
-                  <BsStarFill></BsStarFill>
-               </span>
-            ) : (
-               <span key={i}>
-                  <BsStar></BsStar>
-               </span>
-            )
+            star === 'red' ? <RedStar key={i} /> : <GreyStar key={i} />
          )}
       </div>
    );
