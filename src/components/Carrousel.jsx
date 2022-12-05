@@ -4,18 +4,14 @@ import '../styles/carrousel.css';
 
 function Carrousel({ pictures }) {
    const length = pictures.length;
-   const [isCurrentPicture, setIsCurrentPicture] = useState(0);
+   const [currentPicture, setCurrentPicture] = useState(0);
 
    const slidePrev = () => {
-      setIsCurrentPicture(
-         isCurrentPicture !== 0 ? isCurrentPicture - 1 : length - 1
-      );
+      setCurrentPicture(currentPicture !== 0 ? currentPicture - 1 : length - 1);
    };
 
    const slideNext = () => {
-      setIsCurrentPicture(
-         isCurrentPicture !== length - 1 ? isCurrentPicture + 1 : 0
-      );
+      setCurrentPicture(currentPicture !== length - 1 ? currentPicture + 1 : 0);
    };
 
    return (
@@ -25,11 +21,11 @@ function Carrousel({ pictures }) {
 
          <img
             className="ks-cover-image-locations"
-            src={pictures[isCurrentPicture]}
+            src={pictures[currentPicture]}
             alt="gallery"
          />
          <span className="ks-counter">
-            {isCurrentPicture + 1}/{length}
+            {currentPicture + 1}/{length}
          </span>
       </div>
    );
